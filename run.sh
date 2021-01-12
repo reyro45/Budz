@@ -7,10 +7,10 @@ echo
 read -p '>>> ' userinput1;
 if [ "${userinput1:-}" = "1" ]
 then
-        cd files && cd  linux && bash linux.sh
+        cd linux && bash linux.sh
 fi
 
 if [ "${userinput1:-}" = "2" ]
 then
-        cd files && cd  tmux && bash run.sh
+        cd tmux && bash run.sh
 fi
