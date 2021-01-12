@@ -1,7 +1,7 @@
 clear
 echo -e "\e[31mWhat system do you have ?\e[0m";
 echo
-echo -e "1. Linux";
+echo -e "1. Linux (not finished)";
 echo -e "2. Termux";
 echo
 read -p '>>> ' userinput1;
