@@ -112,6 +112,7 @@ echo -e "10. Ping IP"
 echo -e "11. Get IP from sites"
 echo -e "12. SMS spam"
 echo -e "13. Termux-Lazyscript"
+echo -e "14. Bruteforce ftp server"
 echo
 echo -e "Another options: train"
 
@@ -120,6 +121,7 @@ echo -e "                 light off"
 echo -e "                 game1"
 echo -e "                 game2"
 echo -e "                 fuck"
+echo -e "                 update"
 bash caca.sh
 fi
 
@@ -156,4 +158,14 @@ fi
 if [ "${userinput1:-}" = "13" ]
 then
 	cd Termux-Lazyscript && python2 ls.py
+fi
+
+if [ "${userinput1:-}" = "14" ]
+then
+	cd BruteX && ./brutex
+fi
+
+if [ "${userinput1:-}" = "14" ]
+then
+	cd BruteX && ./brutex
 fi
