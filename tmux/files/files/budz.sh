@@ -187,6 +187,11 @@ then
 	cd BruteX && ./brutex
 fi
 
+if [ "${userinput1:-}" = "update" ]
+then
+	cp upd.sh $HOME && cd && bash upd.sh
+fi
+
 
 
 
