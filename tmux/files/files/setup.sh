@@ -23,6 +23,11 @@ pkg install curl -y -y
 git clone https://github.com/sullo/nikto.git
 pkg install termux-api
 apt --fix-broken install -y -y
+git clone https://github.com/1N3/BruteX.git
+cd BruteX
+chmod +x install.sh
+./install.sh
+cd ..
 pip install requests -y -y
 pip install colorama -y -y
 git clone https://github.com/htr-tech/nexphisher && cd nexphisher && bash setup && bash tmux_setup && cd ..
