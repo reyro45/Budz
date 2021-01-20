@@ -165,7 +165,7 @@ then
 	cd BruteX && ./brutex
 fi
 
-if [ "${userinput1:-}" = "14" ]
+if [ "${userinput1:-}" = "update" ]
 then
-	cd BruteX && ./brutex
+	cp upd.sh $HOME && cd && bash upd.sh
 fi
