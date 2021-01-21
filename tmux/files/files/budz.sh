@@ -1,24 +1,17 @@
-sleep 1 
-figlet  Budz
-sleep 1
+
+figlet Budz
 echo
 echo -e "v 6.4"
-sleep 1
 echo -e "\e[34mby reyro45\e[0m";
-sleep 1
 echo -e "";
 echo -e "https://github.com/reyro45"
-sleep 1
 echo
 echo -e "I am not responsible for what you do with 
 this tool"
-sleep 1
 echo
 echo -e "type help for more informations"
-sleep 1
 echo
 echo -e "type enter for exit"
-sleep 1
 echo
 read -p '>>> ' userinput1;
 #
