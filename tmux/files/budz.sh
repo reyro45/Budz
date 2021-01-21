@@ -1,4 +1,3 @@
-sleep 2
 clear
 echo -e "\e[32mDo you want to setup?\e[0m";
 echo -e "1. Yes";
