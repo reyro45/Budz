@@ -11,9 +11,10 @@ then
 	clear
 pkg install git -y -y
 pkg install sl -y -y
+pkg install pip3 -y -y
 pkg up -y -y
 pkg install neofetch
-git clone https://github.com/TheSpeedX/TBomb && cd TBomb && bash TBomb.sh && cd ..
+git clone https://github.com/TheSpeedX/TBomb && cd TBomb && pip install -r requirements.txt && cd ..
 pkg install figlet -y -y
 pkg install bash -y -y
 git clone https://github.com/s0md3v/ReconDog
