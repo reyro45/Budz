@@ -38,7 +38,7 @@ then
 	cd IP-Tracer
 echo "IP:"
 read ip
-ip-tracer -t $ip
+trace -t $ip
 fi
 
 
