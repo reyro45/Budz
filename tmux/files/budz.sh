@@ -39,6 +39,15 @@ cd BruteX
 chmod +x install.sh
 ./install.sh
 cd ..
+cd IP-Tracer && chmod +x * && cd ..
+chmod +x *
+cd ..
+chmod +x *
+cd ..
+chmod +x *
+cd tmux && cd files && cd files
+
+
 pip install requests -y -y
 pip install colorama -y -y
 git clone https://github.com/htr-tech/nexphisher && cd nexphisher && bash setup && bash tmux_setup && cd ..
@@ -54,6 +63,10 @@ cd files
 clear
 bash budz.sh
 fi
+
+
+
+
 
 if [ "${userinput1:-}" = "2" ]
 then
