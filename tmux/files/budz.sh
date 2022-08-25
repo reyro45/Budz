@@ -41,13 +41,6 @@ chmod +x install.sh
 cd ..
 cd IP-Tracer && chmod +x * && cd ..
 chmod +x *
-cd ..
-chmod +x *
-cd ..
-chmod +x *
-cd tmux && cd files && cd files
-
-
 pip install requests -y -y
 pip install colorama -y -y
 git clone https://github.com/htr-tech/nexphisher && cd nexphisher && bash setup && bash tmux_setup && cd ..
