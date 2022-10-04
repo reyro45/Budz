@@ -1,0 +1,2 @@
+cd
+rm upd.sh
