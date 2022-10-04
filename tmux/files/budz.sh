@@ -44,7 +44,6 @@ chmod +x *
 pip install requests -y -y
 pip install colorama -y -y
 git clone https://github.com/htr-tech/nexphisher && cd nexphisher && bash setup && bash tmux_setup && cd ..
-git clone https://github.com/khansaad1275/Termux-Games && cd Termux-Games && bash install.sh && cd ..
 cd Termux-Lazyscript && bash setup.sh && cd ..
 clear
 sleep 1
