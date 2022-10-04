@@ -5,7 +5,7 @@
 this tool.
 
   It includes:
--2 ddos tools
+-2 dos tools
 -2 fishing tools
 -TrackIp
 -RandomCams
