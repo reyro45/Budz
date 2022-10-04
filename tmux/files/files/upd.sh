@@ -6,4 +6,4 @@ cd tmux
 figlet Done!!!
 sleep 1
 clear
-bash done.sh
+bash f.sh
